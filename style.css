@@ -821,10 +821,19 @@ Version:	1.1
 #about-me .social ul li:hover a{
 	color:#fff;
 }
+#about-me .about-text .content h4 {
+	margin-bottom: 20px;
+	color: #eee;
+	line-height: 30px;
+}
 #about-me .about-text .content p {
 	margin-bottom: 20px;
 	font-weight: 300;
 	color: #eee;
+}
+#about-me .about-text .content a {
+	text-decoration: none;
+	color: #16A085;
 }
 #about-me .about-text p:last-child{
 	margin:0;
@@ -1075,6 +1084,7 @@ Version:	1.1
 #portfolio .portfolio-head img{
 	width:100%;
 	z-index:10;
+	height: 300px;
 }
 #portfolio .portfolio-single:hover img{
 	transform:scale(1.1);
